@@ -25,19 +25,19 @@ result++;
 /* OPERATORY ARYTMETYCZNE */
 let position = 2;
 // inkrementacja. Zwróc wartość i dodaj jeden do wartości inkrementowanej
-// position++ //zwraca 2 i dodaje 1 (czyli jest 3)
+position++ //zwraca 2 i dodaje 1 (czyli jest 3)
 // dekrementacja. Zwraca aktualną wartość a potem ją zmniejsza o 1
-// position--
+position--
 // preinkrementacja - zwiększa wartość o 1 a potem zwraca aktualną wartość
-// ++position
+++position
 // position += 1; //zadziała tak samo jak preinkrementacja
 // predekrementacja - zmniejsza wartość o 1 a potem zwraca aktualną wartość
 // --position
 
 // przypisanie
-// position += 10; // przypisuje do zmiennej nową wartość która jest wynikiem pobrania aktualnej wartości zmiennej i dodania do niej 10
+position += 10; // przypisuje do zmiennej nową wartość która jest wynikiem pobrania aktualnej wartości zmiennej i dodania do niej 10
 // position = position + 10; //W praktyce to się dzieję. Jest to zapis tożsamy.
-// position -= 16; //jw tylko odejmuje
+position -= 16; //jw tylko odejmuje
 // position *= 4.2; //jw czyli pobiera aktualną wartość zmiennej i w tym wypadku mnoży ją zwracają nową wartość
 // position /= 2; //jw tylko dzielenie
 
