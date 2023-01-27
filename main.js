@@ -95,7 +95,7 @@ true && false; //Pierwszy warunek jest true, operator przechodzi do drugiego i z
 (20 > 10 && 10 < 20); //Pierwsze wyrażenie zwraca true, drugie też true a więc operator logiczne "i" zwróci true. 
 
 // KOLEJNOŚĆ OPERATORÓW
-2 + 3 * 5; //mnożenie przed dzielenie
+// 2 + 3 * 5; //mnożenie przed dzielenie
 (2 + 3) * (5 - 4); //nawiasy dają pierwszeńtstow (zaurzają kolejność wykonywania operatorów)
 "2" + 3 * 5; //konwersja nie zaburza kolejności ale wpływa na efekt końcowy. W tym wypadku najpeirw mnożenie a więc "2" + 15, a z tego drugiego działania mamy "215"
 
